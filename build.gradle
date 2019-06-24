@@ -20,7 +20,5 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-tasks.build.dependsOn tasks.jibDockerBuild
-
 // To run image on Docker Desktop (https://www.docker.com/products/docker-desktop)
 // docker run --publish=8080:8080 demo:0.0.1-SNAPSHOT
