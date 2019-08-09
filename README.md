@@ -30,7 +30,7 @@ This will get a copy of the project installed locally. To run the example, run t
 
 ### Create an OIDC App in Okta
 
-You will need to [create an OIDC App in Okta](https://developer.okta.com/blog/2017/03/21/spring-boot-oauth#create-an-openid-connect-app-in-okta) to get a `clientId` and `clientSecret`. 
+You will need to create an OIDC App in Okta to get a `clientId` and `clientSecret`. 
 
 Log in to your Okta Developer account (or [sign up](https://developer.okta.com/signup/) if you don’t have an account) and navigate to **Applications** > **Add Application**. Click **Web**, click **Next**, and give the app a name you’ll remember. Click **Done** and copy the `clientId` into `server/src/main/resources/application.yml`. 
 
