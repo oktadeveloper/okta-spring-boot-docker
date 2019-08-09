@@ -1,7 +1,4 @@
-## Dockerize a Spring Boot App with Jib
-
-
-# Spring Boot, OAuth 2.0, and Okta Example
+# Dockerize a Spring Boot App with Jib
 
 A Spring Boot example app that shows how to use Jib to package your application with Docker.
 
@@ -59,4 +56,3 @@ Please post any questions as comments on the [blog post](http://developer.okta.c
 ## License
 
 Apache 2.0, see [LICENSE](LICENSE).
-
