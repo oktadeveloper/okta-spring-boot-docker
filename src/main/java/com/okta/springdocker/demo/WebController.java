@@ -10,13 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class WebController {
 
     @RequestMapping("/")
-    @ResponseBody
     public String home(@AuthenticationPrincipal JwtAuthenticationToken jwtAuthenticationToken) {
         return "Welcome " + jwtAuthenticationToken.getName() + "!";
     }
 
     @RequestMapping("/info")
-    @ResponseBody
     public String info(@AuthenticationPrincipal JwtAuthenticationToken jwtAuthenticationToken) {
         return jwtAuthenticationToken.toString();
     }
